@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <header>
+    <h1>Biblioteca Pública</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#categorias">Categorias</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    
+    <p>Sobre a Biblioteca</p>
+    <section id="sobre">
+      <p>A Biblioteca Pública é um local dedicado à promoção da leitura e do conhecimento. Oferecemos uma vasta coleção de livros em várias categorias, bem como serviços educacionais e eventos culturais para a comunidade.</p>
+    </section>
+   
+    
+    <div>
+      <section id="destaques">
+      <h2>Livros em Destaque</h2>
+      <div class="livro">
+        <img src="livro1.jpg" alt="Livro 1">
+        <h3>Título do Livro 1</h3>
+        <p>Descrição do livro 1.</p>
+        <a href="#">Saiba Mais</a>
+      </div>
+      <div class="livro">
+        <img src="livro2.jpg" alt="Livro 2">
+        <h3>Título do Livro 2</h3>
+        <p>Descrição do livro 2.</p>
+        <a href="#">Saiba Mais</a>
+      </div>
+      </section>
+    </div>
+          <div>
+        <section id="categorias">
+          <h2>Categorias</h2>
+          <ul>
+            <li><a href="#Ficção">Ficção</a></li>
+            <li>Não Ficção</li>
+            <li>Biografias</li>
+            <li>Autoajuda</li>
+          </ul>
+        </section>
+          </div>
+    <br>
+    <div>
+      <section id="contato">
+        <h2>Entre em Contato</h2>
+        <form action="enviar.php" method="post">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+<br>
+    </div>
+    
+  </body>
+</html>
